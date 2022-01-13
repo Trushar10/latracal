@@ -1,5 +1,5 @@
 <div class="card">
-    <a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+    <?php the_post_thumbnail(); ?>
     <div class="post-desc">
         <h2><?php echo the_title(); ?></h2>
         <?php

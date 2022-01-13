@@ -2,7 +2,7 @@
 
 <main>
     <section class="cat">
-        <h1>Category: <?php single_tag_title(); ?></h1>
+        <h1>Tag: <?php single_tag_title(); ?></h1>
         <div>
 
             <?php 
