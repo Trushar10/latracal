@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #121212;
+	font-family: 'Roboto', sans-serif;
+	background-color: #d1d1d180;
+}
+
+nav {
+	background-color: #fff;
+	box-shadow: 0px 0px 0.6px rgba(0, 0, 0, 0.028),
+		0px 0px 1.5px rgba(0, 0, 0, 0.04), 0px 0px 3px rgba(0, 0, 0, 0.05),
+		0px 0px 6.2px rgba(0, 0, 0, 0.062), 0px 0px 17px rgba(0, 0, 0, 0.09);
+}
+
+.navbar {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 6rem;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+
+	a {
+		color: #121212;
+		text-decoration: none;
+	}
+
+	.menu {
+		display: flex;
+		gap: 1rem;
+
+		li {
+			list-style: none;
+		}
+	}
+}
+
+main {
+	position: relative;
+	max-width: 991px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.my-3 {
+	margin: 3rem 0;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	background-color: #fff;
+	border-radius: 0.25rem;
+	margin: 1.5rem 0;
+	box-shadow: 0px 0px 0.6px rgba(0, 0, 0, 0.028),
+		0px 0px 1.5px rgba(0, 0, 0, 0.04), 0px 0px 3px rgba(0, 0, 0, 0.05),
+		0px 0px 6.2px rgba(0, 0, 0, 0.062), 0px 0px 17px rgba(0, 0, 0, 0.09);
+	transition: 0.3s ease-in-out;
+
+	img {
+		width: 20rem;
+		object-fit: cover;
+		border-top-left-radius: 0.25rem;
+		border-bottom-left-radius: 0.25rem;
+	}
+
+	.post-desc {
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
+		gap: 1rem;
+
+		a {
+			color: #2a4f7e;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	&:hover {
+		transform: scale(1.01);
+		box-shadow: 0px 0px 2.2px rgba(0, 0, 0, 0.031),
+			0px 0px 5.3px rgba(0, 0, 0, 0.044),
+			0px 0px 10px rgba(0, 0, 0, 0.055),
+			0px 0px 17.9px rgba(0, 0, 0, 0.066),
+			0px 0px 33.4px rgba(0, 0, 0, 0.079),
+			0px 0px 80px rgba(0, 0, 0, 0.11);
+	}
+}
+
+.cat {
+	h1 {
+		text-align: center;
+		margin: 3rem 0;
+	}
+}
